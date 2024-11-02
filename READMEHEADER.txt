@@ -11,7 +11,8 @@ Welcome to the MTG Tournament Stats tool! This program helps me to track my perf
    pip install -r requirements.txt
 
 ## Usage
-    ```python insert_match.py
+    ```bash
+    python insert_match.py
     python update_readme.py
 
 ## Features
@@ -20,6 +21,6 @@ Welcome to the MTG Tournament Stats tool! This program helps me to track my perf
     Automatically calculate win rates against different decks.
 
 ## Database Structure
-This tool uses SQLite for data storage, maintaining the following tables:
-    Decks: Records all decks played.
-    Matches: Stores match results, including player and opponent details.
+    * This tool uses SQLite for data storage, maintaining the following tables:
+    * Decks: Records all decks played.
+    * Matches: Stores match results, including player and opponent details.

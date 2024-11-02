@@ -14,10 +14,28 @@ pip install -r requirements.txt
 ```
     
 ## Usage/Examples
-
+To add a new tournament to the database, run the `insert_tournament.py` script. This will prompt you to input details such as the tournament name, deck used, opponent decks, and match results.
 ```bash
 python insert_tournament.py
+```
+This script will guide you through entering:
+- Tournament name and date
+- Your deck and opponent decks
+- Match results (e.g., "2-1" or "1-2")
+
+Once you've added or edited matches in the database, you can update the README.md file to reflect the latest stats. The update_readme.py script will pull data from the database and rewrite the README with updated statistics.
+
+```bash
 python update_readme.py
+```
+
+If you need to make corrections or update the details of a match, use the edit_match.py script. This script allows you to:
+- Locate a match by tournament or opponent name
+- Update match results or deck information
+- Save the updated details to the database
+
+```bash
+python edit_match.py
 ```
 
 
@@ -39,7 +57,6 @@ Contributions are always welcome!
 
 Feel free to fork the repository and submit pull requests for improvements or additional features.
 
-PS: Huge thanks to https://readme.so/ editing README is always a pain in the ass
 
 ## Stats Overview
 - Total matches played: 11

@@ -42,12 +42,16 @@ Feel free to fork the repository and submit pull requests for improvements or ad
 PS: Huge thanks to https://readme.so/ editing README is always a pain in the ass
 
 ## Stats Overview
-- Total matches played: 6
+- Total matches played: 11
 - Decks I played:
   - Mono Blue Tron: 6 matches
+  - UB Frogculus: 5 matches
 - Decks I played against (win rate):
-  - Amulet Titan: 1 matches, Win Rate: 100.00%
+  - Amulet Titan: 2 matches, Win Rate: 100.00%
   - Boros Energy: 1 matches, Win Rate: 0.00%
   - Domain Zoo: 1 matches, Win Rate: 0.00%
+  - Goryo Atraxa: 1 matches, Win Rate: 0.00%
   - RG Breach/Eldrazi: 1 matches, Win Rate: 100.00%
+  - RG Eldrazi/Breach: 1 matches, Win Rate: 0.00%
   - UB Frogtide: 2 matches, Win Rate: 50.00%
+  - UB Murktide: 2 matches, Win Rate: 0.00%

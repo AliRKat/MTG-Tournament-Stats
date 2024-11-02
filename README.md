@@ -1,7 +1,5 @@
 # MTG-Tournament-Stats
 
-# MTG Tournament Stats
-
 Welcome to the MTG Tournament Stats tool! This program helps me to track my performance in Magic: The Gathering tournaments by storing match results and generating statistics.
 
 ## Getting Started
@@ -14,16 +12,16 @@ Welcome to the MTG Tournament Stats tool! This program helps me to track my perf
    source venv/bin/activate
    pip install -r requirements.txt
 
-- **Usage:**
-    python insert_match.py
+## Usage
+    ```python insert_match.py
     python update_readme.py
 
-- **Features:**
+## Features
     Track matches and tournaments with detailed stats.
     Easy-to-use command-line interface.
     Automatically calculate win rates against different decks.
 
-- **Database Structure:**
+## Database Structure
 This tool uses SQLite for data storage, maintaining the following tables:
     Decks: Records all decks played.
     Matches: Stores match results, including player and opponent details.

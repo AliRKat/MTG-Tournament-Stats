@@ -43,15 +43,20 @@ PS: Huge thanks to https://readme.so/ editing README is always a pain in the ass
 
 ## Stats Overview
 - Total matches played: 11
-- Decks I played:
-  - Mono Blue Tron: 6 matches
-  - UB Frogculus: 5 matches
-- Decks I played against (win rate):
-  - Amulet Titan: 2 matches, Win Rate: 100.00%
-  - Boros Energy: 1 matches, Win Rate: 0.00%
-  - Domain Zoo: 1 matches, Win Rate: 0.00%
-  - Goryo Atraxa: 1 matches, Win Rate: 0.00%
-  - RG Breach/Eldrazi: 1 matches, Win Rate: 100.00%
-  - RG Eldrazi/Breach: 1 matches, Win Rate: 0.00%
-  - UB Frogtide: 2 matches, Win Rate: 50.00%
-  - UB Murktide: 2 matches, Win Rate: 0.00%
+- Matches won: 4
+- Matches lost: 7
+- Total games won: 13
+- Total games lost: 17
+
+### Deck: Mono Blue Tron
+  - Opponent: Amulet Titan, Matches: 1, Win Rate: 100.00%
+  - Opponent: Boros Energy, Matches: 1, Win Rate: 0.00%
+  - Opponent: Domain Zoo, Matches: 1, Win Rate: 0.00%
+  - Opponent: RG Breach/Eldrazi, Matches: 1, Win Rate: 100.00%
+  - Opponent: UB Murktide, Matches: 2, Win Rate: 50.00%
+
+### Deck: UB Murktide
+  - Opponent: Amulet Titan, Matches: 1, Win Rate: 100.00%
+  - Opponent: Goryo Atraxa, Matches: 1, Win Rate: 0.00%
+  - Opponent: RG Breach/Eldrazi, Matches: 1, Win Rate: 0.00%
+  - Opponent: UB Murktide, Matches: 2, Win Rate: 0.00%

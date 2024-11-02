@@ -1,8 +1,6 @@
 Welcome to the MTG Tournament Stats tool! This program helps me to track my performance in Magic: The Gathering tournaments by storing match results and generating statistics.
 
 ## Getting Started
-
-- **Installation:**
    ```bash
    git clone https://github.com/yourusername/MTGTournamentStats.git
    cd MTGTournamentStats
@@ -11,7 +9,6 @@ Welcome to the MTG Tournament Stats tool! This program helps me to track my perf
    pip install -r requirements.txt
 
 ## Usage
-    ```bash
     python insert_match.py
     python update_readme.py
 

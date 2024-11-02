@@ -38,13 +38,19 @@ def fetch_stats(conn):
 
     return total_matches, decks_played, decks_played_against
 
-def update_readme(total_matches, decks_played, decks_played_against):
+def read_header(header_path='READMEHEADER.txt'):
+    """Read the header text from a file."""
+    with open(header_path, 'r') as file:
+        return file.read()
+
+def update_readme(header_text, total_matches, decks_played, decks_played_against):
     """Update the README file with statistics."""
     readme_path = 'README.md'
 
     # Clear the README file first
     with open(readme_path, 'w') as file:
-        file.write("# MTG-Tournament-Stats\n\n## Stats Overview\n")
+        file.write("# MTG-Tournament-Stats\n\n")
+        file.write(header_text + "\n\n## Stats Overview\n")
 
     with open(readme_path, 'a') as file:
         file.write(f"- Total matches played: {total_matches}\n")
@@ -62,7 +68,8 @@ def update_readme(total_matches, decks_played, decks_played_against):
 def main():
     conn = connect_db()
     total_matches, decks_played, decks_played_against = fetch_stats(conn)
-    update_readme(total_matches, decks_played, decks_played_against)
+    header_text = read_header()
+    update_readme(header_text, total_matches, decks_played, decks_played_against)
     conn.close()
     print("README.md updated with the latest stats.")
 

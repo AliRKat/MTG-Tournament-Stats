@@ -7,7 +7,7 @@ Welcome to the MTG Tournament Stats tool! This program helps me to track my perf
 
 ```bash
 git clone https://github.com/AliRKat/MTG-Tournament-Stats
-cd MTGTournamentStats
+cd MTG-Tournament-Stats
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -17,7 +17,6 @@ pip install -r requirements.txt
 
 ```bash
 python insert_tournament.py
-// this is always optional
 python update_readme.py
 ```
 

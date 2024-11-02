@@ -1,6 +1,8 @@
 Welcome to the MTG Tournament Stats tool! This program helps me to track my performance in Magic: The Gathering tournaments by storing match results and generating statistics.
 
 ## Getting Started
+
+- **Installation:**
    ```bash
    git clone https://github.com/yourusername/MTGTournamentStats.git
    cd MTGTournamentStats
@@ -21,3 +23,9 @@ Welcome to the MTG Tournament Stats tool! This program helps me to track my perf
     * This tool uses SQLite for data storage, maintaining the following tables:
     * Decks: Records all decks played.
     * Matches: Stores match results, including player and opponent details.
+
+## Contributing
+    Feel free to fork the repository and submit pull requests for improvements or additional features.
+
+## License
+    This project is licensed under the MIT License. See the LICENSE file for more details.

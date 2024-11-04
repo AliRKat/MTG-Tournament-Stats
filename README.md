@@ -59,17 +59,22 @@ Feel free to fork the repository and submit pull requests for improvements or ad
 
 
 ## Stats Overview
-- Total matches played: 11
-- Matches won: 4
-- Matches lost: 7
-- Total games won: 13
-- Total games lost: 17
+- Total matches played: 17
+- Matches won: 7
+- Matches lost: 10
+- Total games won: 20
+- Total games lost: 23
 
 ### Deck: Mono Blue Tron
   - Opponent: Amulet Titan, Matches: 1, Win Rate: 100.00%
-  - Opponent: Boros Energy, Matches: 1, Win Rate: 0.00%
+  - Opponent: Boros Energy, Matches: 2, Win Rate: 0.00%
+  - Opponent: Domain Aggro, Matches: 1, Win Rate: 0.00%
   - Opponent: Domain Zoo, Matches: 1, Win Rate: 0.00%
+  - Opponent: Eldrazi Tron, Matches: 1, Win Rate: 100.00%
+  - Opponent: Hollow Blade, Matches: 1, Win Rate: 100.00%
+  - Opponent: Mono Black Coffers, Matches: 1, Win Rate: 100.00%
   - Opponent: RG Breach/Eldrazi, Matches: 1, Win Rate: 100.00%
+  - Opponent: Ruby Storm, Matches: 1, Win Rate: 0.00%
   - Opponent: UB Murktide, Matches: 2, Win Rate: 50.00%
 
 ### Deck: UB Murktide
